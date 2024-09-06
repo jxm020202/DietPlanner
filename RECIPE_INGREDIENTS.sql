@@ -1,0 +1,7 @@
+CREATE TABLE RECIPE_INGREDIENTS (
+    RecipeID INT,
+    IngredientID INT,
+    Quantity FLOAT NULL,
+    FOREIGN KEY (RecipeID) REFERENCES RECIPES(RecipeID),
+    FOREIGN KEY (IngredientID) REFERENCES INGREDIENTS(IngredientID)
+);
