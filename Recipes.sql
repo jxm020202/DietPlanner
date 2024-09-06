@@ -1,8 +1,7 @@
-CREATE TABLE Recipes (
-    RecipeID INT PRIMARY KEY AUTO_INCREMENT,
-    MealName VARCHAR(100) NOT NULL,
-    Ingredients TEXT NOT NULL,
-    Calories FLOAT NOT NULL,
-    Cost FLOAT NOT NULL,
-    DietTypeCompatibility VARCHAR(100) NOT NULL
+CREATE TABLE RECIPES (
+    RecipeID INT PRIMARY KEY,
+    MealName VARCHAR(100),
+    Calories FLOAT,
+    Cost FLOAT,
+    DietTypeCompatibility VARCHAR(50)
 );
