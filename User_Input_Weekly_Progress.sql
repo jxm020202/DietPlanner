@@ -1,10 +1,9 @@
-CREATE TABLE User_Input_Weekly_Progress (
+CREATE TABLE USER_INPUT_WEEKLY_PROGRESS (
     UserID INT,
     WeekNumber INT,
-    WeightForWeek FLOAT,
-    CalorieIntakeForWeek FLOAT,
-    TargetCalorieIntake FLOAT,
-    FeedbackOnMeals TEXT,
-    PRIMARY KEY (UserID, WeekNumber),
-    FOREIGN KEY (UserID) REFERENCES User(UserID)
+    WeightForWeek FLOAT NULL,
+    CalorieIntakeForWeek FLOAT NULL,
+    TargetCalorieIntake FLOAT NULL,
+    FeedbackOnMeals VARCHAR(255) NULL,
+    FOREIGN KEY (UserID) REFERENCES USER(UserID)
 );
