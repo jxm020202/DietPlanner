@@ -1,6 +1,6 @@
-CREATE TABLE Ingredients (
-    IngredientID INT PRIMARY KEY AUTO_INCREMENT,
-    IngredientName VARCHAR(100) NOT NULL,
-    Location VARCHAR(100) NOT NULL,
-    Cost FLOAT NOT NULL
+CREATE TABLE INGREDIENTS (
+    IngredientID INT PRIMARY KEY,
+    IngredientName VARCHAR(100),
+    Location VARCHAR(100) NULL,
+    Cost FLOAT
 );
