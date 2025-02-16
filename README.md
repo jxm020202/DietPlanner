@@ -9,8 +9,4 @@ DietPlanner allows users to:
 - Track daily nutritional intake.
 - Get recipe suggestions based on dietary preferences.
 
-## Technologies Used
-
-- JavaScript
-
 ---
