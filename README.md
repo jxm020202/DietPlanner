@@ -1,6 +1,6 @@
 # DietPlanner
 
-DietPlanner is a JavaScript-based application designed to help users plan their diet and manage their nutritional intake. This project is part of the Business Intelligence [INMT5526] course and Bloom Launchpad.
+DietPlanner is a database system design to help users plan their diet and manage their nutritional intake. This project is part of the Business Intelligence [INMT5526] course and Bloom Launchpad.
 
 ## Project Overview
 
